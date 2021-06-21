@@ -29,11 +29,14 @@ dark mode is **required** for the theme to work.
 
 🛡️ [SponsorBlock](https://sponsor.ajay.app/) | Blocks youtube sponsors, intros and more!
 
+🍀 If you want to make your discord looks like opera gx, here is a theme i made: [Translucence Opera GX Theme](https://github.com/Abod1960/BetterDiscord-Translucence-Themes/tree/master/Themes/Translucence-Opera%20GX)
+
 🖌️ [Custom Progress Bar](https://33kk.github.io/uso-archive/?style=95280) | Styles your youtube progress bar
 
 ⚙️ Recommended settings for Custom Progress Bar
 
-![Settings for Custom Progress Bar](https://i.imgur.com/fihHM5S.png)
+![Settings for Custom Progress Bar](https://i.imgur.com/fihHM5S.png)<br>
+
 
 ## 👤 Author
 
