@@ -1,0 +1,417 @@
+@-moz-document domain("youtube.com") {
+
+/* ==UserStyle==
+@name         Opera Gx YT Theme
+@description  opera gx look for your yt.
+@namespace    https://github.com/Abod1960/Opera-Gx-YT-Theme
+@homepageURL  https://github.com/Abod1960/Opera-Gx-YT-Theme
+@supportURL   https://github.com/Abod1960/Opera-Gx-YT-Theme/issues
+@updateURL    https://github.com/Abod1960/Dev-YT-Theme/raw/main/Opera-Gx-YT-Theme.user.css
+@author       Abod1960 (https://github.com/Abod1960)
+@version      1.0.0
+@license      MIT
+==/UserStyle== */
+
+
+
+
+:root {
+
+    --red: #FC1E4F;
+}
+
+#container.ytd-masthead {
+
+    background-color: #130726  !important;
+}
+
+ytd-watch-flexy[flexy][is-two-columns_] #columns.ytd-watch-flexy {
+    background-color: #130726
+}
+
+#like-button {
+    color: #FC1E4F
+}
+ytd-c4-tabbed-header-renderer {
+    --yt-lightsource-section1-color: #130726;
+}
+ytd-mini-guide-entry-renderer {
+
+    background-color: #130726;
+}
+#header.ytd-browse, #tabs-inner-container.ytd-c4-tabbed-header-renderer {
+    background-color: #130726 !important;
+}
+
+#logo-icon > svg > g > g:nth-child(1) > path:nth-child(1) {
+    fill: var(--red);
+}
+
+paper-button.ytd-subscribe-button-renderer[subscribed] {
+    color: #A7ACAE;
+    background-color: #4c566a;
+    border-radius: 20px;
+}
+
+
+paper-button.ytd-subscribe-button-renderer {
+    background-color: #FC1E4F;
+    color: #A7ACAE;
+    border-radius: 20px;
+}
+
+ytd-subscription-notification-toggle-button-renderer #button.ytd-subscription-notification-toggle-button-renderer {
+    color: #A7ACAE
+}
+
+.sbsb_a, .sbdd_b {
+    display: none;
+}
+
+#container.ytd-searchbox {
+    background-color: #130726;
+    color: #A7ACAE;
+    BORDER: NONE;
+}
+
+#search-icon-legacy.ytd-searchbox {
+    background-color: #130726
+}
+
+#search-icon-legacy.ytd-searchbox {
+    color: #A7ACAE;
+    border: none;
+}
+
+#search-icon-legacy.ytd-searchbox yt-icon.ytd-searchbox {
+    color: #A7ACAE !iMPORTANT;
+}
+
+#notification-count.ytd-notification-topbar-button-renderer {
+    BACKGROUND-COLOR: #FC1E4F
+}
+
+ytd-toggle-button-renderer.force-icon-button a.ytd-toggle-button-renderer {
+    color: #FC1E4F
+}
+
+ytd-toggle-button-renderer.style-text[is-icon-button] #text.ytd-toggle-button-renderer {
+    color: #A7ACAE
+}
+
+#like-bar.ytd-sentiment-bar-renderer {
+    background-color: #FC1E4F
+}
+
+ytd-button-renderer #button.ytd-button-renderer {
+    color: #A7ACAE
+}
+
+ytd-button-renderer.style-text[is-icon-button] #text.ytd-button-renderer, ytd-button-renderer.style-default[is-icon-button] #text.ytd-button-renderer, ytd-button-renderer.style-opacity[is-icon-button] #text.ytd-button-renderer {
+    color: #A7ACAE
+}
+
+#button.ytd-menu-renderer yt-icon.ytd-menu-renderer {
+    color: #A7ACAE
+}
+
+#chat-messages.yt-live-chat-renderer, #contents.yt-live-chat-renderer, #item-list.yt-live-chat-renderer {
+    background-color: #130726
+}
+
+#contentWrapper.tp-yt-iron-dropdown > * {
+    background-color: #130726
+}
+
+ytd-active-account-header-renderer {
+    background-color: #130726
+}
+
+yt-icon.ytd-compact-link-renderer, yt-icon.ytd-toggle-theme-compact-link-renderer {
+    color: #A7ACAE
+}
+
+ytd-button-renderer.style-suggestive[is-paper-button] {
+    background-color: #FC1E4F;
+}
+
+ytd-button-renderer.style-suggestive[is-paper-button] paper-button.ytd-button-renderer {
+    border: none;
+}
+
+a.ytd-rich-metadata-renderer {
+    background-color: #130726
+}
+
+#chips.yt-chip-cloud-renderer {
+    display: none;
+}
+
+ytd-thumbnail #thumbnail.ytd-thumbnail {
+    border-radius: 8px;
+    border-style: solid;
+  border-color: #FC1E4F;
+      border-width: 1px;
+}
+
+ytd-thumbnail.ytd-rich-grid-media, ytd-thumbnail.ytd-rich-grid-media::before {
+    border-radius: 8px;
+}
+
+yt-icon.ytd-badge-supported-renderer {
+    color: #FC1E4F;
+}
+
+#owner-sub-count.ytd-video-owner-renderer, yt-formatted-string.ytd-video-primary-info-renderer, span.ytd-video-view-count-renderer {
+    color: #A7ACAE
+}
+
+ytd-menu-popup-renderer {
+    border-radius: 5px;
+}
+
+tp-yt-paper-listbox {
+    background-color: #130726;
+}
+
+yt-icon.ytd-menu-service-item-renderer {
+    color: #A7ACAE
+}
+
+#chips.ytd-feed-filter-chip-bar-renderer, ytd-feed-filter-chip-bar-renderer {
+    display: none;
+}
+
+ytd-rich-grid-renderer {
+    background-color: #130726
+}
+
+.html5-video-player.ytp-autonav-endscreen-cancelled-state {
+    border-radius: 6px;
+        border-style: solid;
+  border-color: #FC1E4F;
+      border-width: 1px;
+}
+
+#content.ytd-rich-section-renderer > .ytd-rich-section-renderer {
+    display: none;
+}
+
+ytd-mini-guide-renderer.ytd-app {
+    background-color: #130726
+}
+
+ytd-watch-flexy[flexy][is-two-columns_] #columns.ytd-watch-flexy {
+    margin-left: 0;
+    margin-right: 0 !important;
+}
+
+ytd-watch-flexy[flexy][flexy-large-window_]:not([is-extra-wide-video_]), ytd-watch-flexy[flexy][flexy-large-window_][transcript-opened_][is-two-columns_]:not([is-extra-wide-video_]), ytd-watch-flexy[flexy][flexy-large-window_][playlist][is-two-columns_]:not([is-extra-wide-video_]), ytd-watch-flexy[flexy][flexy-large-window_][should-stamp-chat][is-two-columns_]:not([is-extra-wide-video_]) {
+    background-color: #130726
+}
+
+.ytp-videowall-still-image {
+    border-radius: 20px;
+}
+
+ytd-live-chat-frame {
+    border: none;
+}
+
+#show-hide-button.ytd-live-chat-frame > ytd-toggle-button-renderer.ytd-live-chat-frame{
+    background-color: #130726;
+    color: #A7ACAE;
+}
+
+ytd-button-renderer.style-suggestive[is-paper-button]  {
+    border-radius: 20px;
+}
+
+.fit.tp-yt-paper-dialog-scrollable, #top-bar.ytd-sponsorships-offer-renderer {
+    background-color: #130726
+}
+
+yt-button-renderer #button.yt-button-renderer {
+    background-color: #FC1E4F
+}
+
+yt-button-renderer #button.yt-button-renderer {
+    color: #A7ACAE
+}
+
+yt-button-renderer.style-primary[is-paper-button] {
+    border-radius: 20px;
+}
+
+.fit.tp-yt-paper-dialog-scrollable  {
+    border-radius: 20px;
+}
+
+a.yt-simple-endpoint.yt-formatted-string {
+    color: #FC1E4F
+}
+
+a.yt-simple-endpoint.yt-formatted-string:hover {
+    color: #FC1E4F
+}
+
+ytd-simple-menu-header-renderer {
+    background-color: #130726
+}
+
+#text.ytd-channel-name, #metadata-line.ytd-video-meta-block span.ytd-video-meta-block {
+    color: #A7ACAE
+}
+
+.badge-style-type-simple.ytd-badge-supported-renderer {
+    background: #232935 !Important;
+}
+
+.badge-style-type-simple.ytd-badge-supported-renderer {
+    color: #A7ACAE
+}
+
+.badge-style-type-simple.ytd-badge-supported-renderer {
+    border-radius: 20px;
+}
+
+#country-code.ytd-topbar-logo-renderer {
+    display: none;
+}
+
+ytd-author-comment-badge-renderer[creator] {
+    background-color: #FC1E4F
+}
+
+#like-button.ytd-comment-action-buttons-renderer {
+    color: #FC1E4F
+}
+
+#dislike-button.ytd-comment-action-buttons-renderer {
+    color: #FC1E4F
+}
+
+#label.ytd-pinned-comment-badge-renderer, yt-formatted-string[has-link-only_]:not([force-default-style]) a.yt-simple-endpoint.yt-formatted-string {
+    color: #A7ACAE
+}
+
+#label-icon.yt-dropdown-menu, #icon-label.yt-dropdown-menu, #simplebox-placeholder.ytd-comment-simplebox-renderer, .more-button.ytd-video-secondary-info-renderer, .less-button.ytd-video-secondary-info-renderer {
+    color: #A7ACAE !important;
+}
+
+#voice-search-button.ytd-masthead .ytd-masthead[is-icon-button] {
+    display: none;
+}
+
+#placeholder-area.ytd-comment-simplebox-renderer, #input-container.ytd-commentbox {
+    border: none;
+}
+
+ytd-commentbox {
+    border: none;
+}
+
+ytd-button-renderer.style-primary[is-paper-button] {
+    background-color: #FC1E4F;
+    border-radius: 20px;
+}
+
+#sections.ytd-guide-renderer > ytd-guide-section-renderer.ytd-guide-renderer:not(:first-child), #sections.ytd-guide-renderer > ytd-guide-subscriptions-section-renderer.ytd-guide-renderer {
+    background-color: #130726;
+    border-bottom: none;
+}
+
+#sections.ytd-guide-renderer > .ytd-guide-renderer:not(:last-child) {
+    background-color: #130726;
+    border-bottom: none;
+}
+
+ytd-app:not([background-color-update_]) tp-yt-app-drawer.ytd-app:not([persistent]).ytd-app #header.ytd-app {
+    background-color: #130726;
+    border-bottom: none;
+}
+
+.guide-icon.ytd-guide-entry-renderer {
+    color: #A7ACAE
+}
+
+#guide-section-title.ytd-guide-section-renderer {
+    color: #A7ACAE
+}
+
+#guide-links-primary.ytd-guide-renderer, #guide-links-secondary.ytd-guide-renderer, #footer.ytd-guide-renderer > #copyright {
+    background-color: #130726
+}
+
+#footer.ytd-guide-renderer > #copyright, #guide-links-primary.ytd-guide-renderer > a, #guide-links-secondary.ytd-guide-renderer > a, .metadata.ytd-notification-renderer {
+    color: #A7ACAE
+}
+
+#contentWrapper.tp-yt-iron-dropdown > * {
+    border: none;
+    border-radius: 20px;
+}
+
+ytd-simple-menu-header-renderer {
+    border: none;
+}
+
+#vote-count-middle.ytd-comment-action-buttons-renderer {
+    color: #A7ACAE
+}
+
+channel-header.ytd-c4-tabbed-header-renderer {
+    background-color: #232935
+}
+
+#header.ytd-browse, #tabs-inner-container.ytd-c4-tabbed-header-renderer {
+    background-color: #232935
+}
+
+ytd-page-manager > .ytd-page-manager {
+    background-color: #130726
+}
+
+.tab-content.tp-yt-paper-tab, tp-yt-paper-tab.iron-selected.ytd-c4-tabbed-header-renderer {
+    color: #A7ACAE
+}
+
+ytd-playlist-thumbnail #thumbnail.ytd-playlist-thumbnail {
+    border-radius: 20px;
+}
+
+#metadata.ytd-channel-renderer, #description.ytd-channel-renderer, #subscriber-count.ytd-c4-tabbed-header-renderer {
+    color: #A7ACAE
+}
+
+ytd-backstage-post-thread-renderer {
+    border: none;
+}
+
+.progress-bar.ytd-backstage-poll-renderer {
+    background-color: #232935;
+    border-radius: 5px;
+}
+
+ytd-backstage-poll-renderer[show-poll-choice-border] tp-yt-paper-item.ytd-backstage-poll-renderer[show-percentage] .choice-info.ytd-backstage-poll-renderer {
+    border: none;
+}
+
+yt-icon.checked.ytd-backstage-poll-renderer {
+    color: #FC1E4F
+}
+
+tp-yt-paper-item.ytd-backstage-poll-renderer[selected] .progress-bar.ytd-backstage-poll-renderer {
+    background-color: #FC1E4F;
+    border-radius: 5px;
+}
+
+yt-icon.ytd-backstage-poll-renderer, #vote-info.ytd-backstage-poll-renderer {
+    color: #A7ACAE
+}
+
+ytd-backstage-poll-renderer[show-poll-choice-border] .choice-info.ytd-backstage-poll-renderer {
+    border: none;
+}
+
+}
