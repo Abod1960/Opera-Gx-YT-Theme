@@ -21,7 +21,7 @@ and this is originaly by [@sheeepdev](https://github.com/sheeepdev) and i change
 
 dark mode is **required** for the theme to work.
 
-[Click here to install Opera-Gx-YT-Theme](https://github.com/Abod1960/Opera-Gx-YT-Theme/raw/main/Opera-Gx-YT-Theme.user.css)
+#### 🔰 [Click here to install Opera-Gx-YT-Theme](https://github.com/Abod1960/Opera-Gx-YT-Theme/raw/main/Opera-Gx-YT-Theme.user.css)
 
 
 ## 👍 Recommended extensions and styles
