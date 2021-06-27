@@ -31,7 +31,7 @@ dark mode is **required** for the theme to work.
 
 🍀 If you want to make your discord app looks like opera gx, here is a theme i made: [Translucence Opera GX Theme](https://github.com/Abod1960/BetterDiscord-Translucence-Themes/tree/master/Themes/Translucence-Opera%20GX).
 
-⚜ And if you want to get an opera gx cursor, here you can get it: [Opera-Gx-Cursor](https://www.deviantart.com/abod1960/art/Opera-Gx-Cursor-883356764)
+⚜ And if you want to get an opera gx cursor, here you can get it: [Opera-Gx-Cursor](https://www.deviantart.com/abod1960/art/Opera-Gx-Cursor-883356764).
 
 🖌️ [Custom Progress Bar](https://33kk.github.io/uso-archive/?style=95280) | Styles your youtube progress bar
 
